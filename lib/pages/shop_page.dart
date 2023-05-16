@@ -10,6 +10,20 @@ class ShopPage extends StatefulWidget {
 class _ShopPageState extends State<ShopPage> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.all(25.0),
+        child: Column(
+          children: const [
+            //heading
+            Text("Bubble Tea Shop",
+            style: TextStyle(
+              fontSize: 20),),
+
+            //list of drinks for sale
+          ],
+        ),
+      ),
+    );
   }
 }

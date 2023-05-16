@@ -13,7 +13,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   //navigate bottom bar
-
   int _selectedIndex = 0;
   void navigateBottomBar(int newIndex){
     setState(() {
